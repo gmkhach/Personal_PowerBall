@@ -53,9 +53,8 @@ Partial Class Form1
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(104, 223)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(35, 39)
+        Me.Label1.Size = New System.Drawing.Size(2, 39)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "1"
         '
         'Label2
         '
@@ -64,9 +63,8 @@ Partial Class Form1
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(182, 221)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(37, 39)
+        Me.Label2.Size = New System.Drawing.Size(2, 39)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "2"
         '
         'Label3
         '
@@ -75,9 +73,8 @@ Partial Class Form1
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(254, 221)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(37, 39)
+        Me.Label3.Size = New System.Drawing.Size(2, 39)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "3"
         '
         'Label4
         '
@@ -86,9 +83,8 @@ Partial Class Form1
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(330, 221)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(37, 39)
+        Me.Label4.Size = New System.Drawing.Size(2, 39)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "4"
         '
         'Label5
         '
@@ -97,9 +93,8 @@ Partial Class Form1
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(407, 221)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(37, 39)
+        Me.Label5.Size = New System.Drawing.Size(2, 39)
         Me.Label5.TabIndex = 5
-        Me.Label5.Text = "5"
         '
         'Label6
         '
@@ -109,9 +104,8 @@ Partial Class Form1
         Me.Label6.ForeColor = System.Drawing.Color.Red
         Me.Label6.Location = New System.Drawing.Point(680, 223)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(37, 39)
+        Me.Label6.Size = New System.Drawing.Size(2, 39)
         Me.Label6.TabIndex = 6
-        Me.Label6.Text = "3"
         '
         'Label7
         '
@@ -129,7 +123,7 @@ Partial Class Form1
         Me.cmdGenerate.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdGenerate.Location = New System.Drawing.Point(598, 320)
         Me.cmdGenerate.Name = "cmdGenerate"
-        Me.cmdGenerate.Size = New System.Drawing.Size(119, 38)
+        Me.cmdGenerate.Size = New System.Drawing.Size(123, 38)
         Me.cmdGenerate.TabIndex = 8
         Me.cmdGenerate.Text = "Generate"
         Me.cmdGenerate.UseVisualStyleBackColor = True
