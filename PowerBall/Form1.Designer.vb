@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class PowerBall
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PowerBall))
         Me.Number1 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -30,7 +30,6 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.cmdGenerate = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -40,102 +39,84 @@ Partial Class Form1
         Me.Number1.BackColor = System.Drawing.Color.Transparent
         Me.Number1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Number1.ForeColor = System.Drawing.SystemColors.Window
-        Me.Number1.Location = New System.Drawing.Point(155, 9)
+        Me.Number1.Location = New System.Drawing.Point(162, 9)
         Me.Number1.Name = "Number1"
-        Me.Number1.Size = New System.Drawing.Size(462, 37)
+        Me.Number1.Size = New System.Drawing.Size(446, 37)
         Me.Number1.TabIndex = 0
-        Me.Number1.Text = "Power Ball Numbers Generator"
+        Me.Number1.Text = "Power Ball Number Generator"
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(104, 223)
+        Me.Label1.Location = New System.Drawing.Point(82, 223)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(2, 39)
+        Me.Label1.Size = New System.Drawing.Size(55, 37)
         Me.Label1.TabIndex = 1
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(182, 221)
+        Me.Label2.Location = New System.Drawing.Point(195, 221)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(2, 39)
+        Me.Label2.Size = New System.Drawing.Size(55, 37)
         Me.Label2.TabIndex = 2
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(254, 221)
+        Me.Label3.Location = New System.Drawing.Point(311, 223)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(2, 39)
+        Me.Label3.Size = New System.Drawing.Size(55, 37)
         Me.Label3.TabIndex = 3
         '
         'Label4
         '
-        Me.Label4.AutoSize = True
         Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(330, 221)
+        Me.Label4.Location = New System.Drawing.Point(422, 223)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(2, 39)
+        Me.Label4.Size = New System.Drawing.Size(55, 37)
         Me.Label4.TabIndex = 4
         '
         'Label5
         '
-        Me.Label5.AutoSize = True
         Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(407, 221)
+        Me.Label5.Location = New System.Drawing.Point(535, 221)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(2, 39)
+        Me.Label5.Size = New System.Drawing.Size(55, 37)
         Me.Label5.TabIndex = 5
         '
         'Label6
         '
-        Me.Label6.AutoSize = True
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Red
-        Me.Label6.Location = New System.Drawing.Point(680, 223)
+        Me.Label6.Location = New System.Drawing.Point(653, 223)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(2, 39)
+        Me.Label6.Size = New System.Drawing.Size(55, 37)
         Me.Label6.TabIndex = 6
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.Red
-        Me.Label7.Location = New System.Drawing.Point(487, 223)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(178, 37)
-        Me.Label7.TabIndex = 7
-        Me.Label7.Text = "Power Ball:"
         '
         'cmdGenerate
         '
         Me.cmdGenerate.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdGenerate.Location = New System.Drawing.Point(598, 320)
+        Me.cmdGenerate.Location = New System.Drawing.Point(580, 318)
         Me.cmdGenerate.Name = "cmdGenerate"
         Me.cmdGenerate.Size = New System.Drawing.Size(123, 38)
         Me.cmdGenerate.TabIndex = 8
         Me.cmdGenerate.Text = "Generate"
         Me.cmdGenerate.UseVisualStyleBackColor = True
         '
-        'Form1
+        'PowerBall
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.cmdGenerate)
-        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -143,8 +124,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Number1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "PowerBall"
+        Me.Text = "Power Ball Number Generator"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -157,6 +138,5 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
     Friend WithEvents cmdGenerate As Button
 End Class
