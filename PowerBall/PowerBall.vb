@@ -9,11 +9,11 @@
     End Sub
 
     Private Sub cmdGenerate_Click(sender As Object, e As EventArgs) Handles cmdGenerate.Click
-        Label1.Text = Main.Dispense().Number()
-        Label2.Text = Main.Dispense().Number()
-        Label3.Text = Main.Dispense().Number()
-        Label4.Text = Main.Dispense().Number()
-        Label5.Text = Main.Dispense().Number()
+
+        For Each myLabel As Label In MainNumbers.Controls
+            myLabel.Text = Main.Dispense().Number()
+        Next
+
         Label6.Text = Power.Dispense().Number()
     End Sub
 

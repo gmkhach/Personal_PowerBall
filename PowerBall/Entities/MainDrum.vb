@@ -1,7 +1,7 @@
 ﻿Public Class MainDrum
 
     Public Sub New()
-        For i As Integer = 0 To 68
+        For i = 0 To 68
             Drum(i) = New Ball(i + 1)
         Next
     End Sub

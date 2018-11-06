@@ -1,7 +1,7 @@
 ﻿Public Class PowerBallDrum
 
     Public Sub New()
-        For i As Integer = 0 To 25
+        For i = 0 To 25
             Drum(i) = New Ball(i + 1)
         Next
     End Sub
