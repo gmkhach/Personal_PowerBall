@@ -3,12 +3,10 @@
     Public Main As Drum
     Public Power As Drum
 
-    Public Sub PowerBall_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub cmdGenerate_Click(sender As Object, e As EventArgs) Handles cmdGenerate.Click
+        'Initializing the drums
         Main = New Drum(69)
         Power = New Drum(26)
-    End Sub
-
-    Private Sub cmdGenerate_Click(sender As Object, e As EventArgs) Handles cmdGenerate.Click
 
         'Populating the Main numbers' labels
         For Each myLabel As Label In MainNumbers.Controls
