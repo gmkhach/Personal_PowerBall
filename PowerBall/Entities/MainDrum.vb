@@ -2,7 +2,7 @@
 
     Public Sub New()
         For i As Integer = 0 To 68
-            Drum(i) = New Ball
+            Drum(i) = New Ball(i + 1)
         Next
     End Sub
 
