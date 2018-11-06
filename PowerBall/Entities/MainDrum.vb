@@ -9,7 +9,7 @@
     Public Drum(69) As Ball
     Dim rnd As New Random()
 
-    Public Function Dispense()
+    Public Function Dispense() As Ball
         Dim i As Integer
         Dim dispensedBall As Ball = Nothing
 
