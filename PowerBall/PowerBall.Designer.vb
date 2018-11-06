@@ -52,7 +52,7 @@ Partial Class PowerBall
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Red
-        Me.Label6.Location = New System.Drawing.Point(653, 223)
+        Me.Label6.Location = New System.Drawing.Point(648, 223)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(55, 37)
         Me.Label6.TabIndex = 6
@@ -125,9 +125,9 @@ Partial Class PowerBall
         Me.MainNumbers.Controls.Add(Me.Label3)
         Me.MainNumbers.Controls.Add(Me.Label5)
         Me.MainNumbers.Controls.Add(Me.Label4)
-        Me.MainNumbers.Location = New System.Drawing.Point(63, 193)
+        Me.MainNumbers.Location = New System.Drawing.Point(61, 193)
         Me.MainNumbers.Name = "MainNumbers"
-        Me.MainNumbers.Size = New System.Drawing.Size(584, 100)
+        Me.MainNumbers.Size = New System.Drawing.Size(559, 100)
         Me.MainNumbers.TabIndex = 9
         '
         'PowerBall
