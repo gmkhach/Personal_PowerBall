@@ -1,12 +1,16 @@
-﻿Public Class MainDrum
+﻿Public Class Drum
 
-    Public Sub New()
-        For i = 0 To 68
-            Drum(i) = New Ball(i + 1)
+    Public Sub New(ByVal size As Integer)
+        drum = New Ball(size) {}
+        Me.size = size
+        For i = 0 To size - 1
+            drum(i) = New Ball(i + 1)
         Next
     End Sub
 
-    Public Drum(69) As Ball
+    Private drum() As Ball
+    Private size As Integer
+
     Dim rnd As New Random()
 
     Public Function Dispense() As Ball
@@ -15,15 +19,15 @@
 
         'Randomly select a ball from the drum
         Do While IsNothing(dispensedBall)
-            i = rnd.Next(0, 68)
+            i = rnd.Next(0, size - 1)
             'Check if the ball has already been selected
-            If Not IsNothing(Drum(i)) Then
-                dispensedBall = Drum(i)
+            If Not IsNothing(drum(i)) Then
+                dispensedBall = drum(i)
             End If
         Loop
 
         'Remove the selected ball form the drum
-        Drum(i) = Nothing
+        drum(i) = Nothing
 
         'Return the selected ball
         Return dispensedBall
